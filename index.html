@@ -1,88 +1,82 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONFINERIE FREQUENTER AU GHANA</title>
+    <title>Responsive Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <div class="container">
-        <img src="./img/ST167.JPG" alt="Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#btext">HOME</a></li>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Notre galerie</a></li>
+    <header>
+        <div class="top-bar">
+            <p>Welcome to our website!</p>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
-    </div>
-</header>
+    </header>
 
-<section id="about">
-    <div class="container">
-        <h3 class="w3l-title">A PROPOS</h3>
-        <p class="sal">CONFINERIE FREQUENTER AU GHANA est une structure qui vous accompagne tout au long de votre procédure pour vos études et séjour au Ghana. Avec CONFINERIE FREQUENTER AU GHANA, votre avenir se prépare aujourd'hui.</p>
-    </div>
-</section>
+    <main>
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a simple responsive website example.</p>
+        </section>
 
-<section id="services">
-    <div class="container">
-        <h3 class="w3l-title">Services</h3>
-        <div class="service">
-            <h4>Opter pour une formation au Ghana</h4>
-            <p>Nous vous offrons des services pour faciliter votre procédure et votre séjour au Ghana, y compris l'inscription dans des écoles de langue, la traduction de diplômes, et des services d'accompagnement.</p>
-        </div>
-        <div class="service">
-            <h4>Logements abordables</h4>
-            <p>Nous vous proposons des solutions de logement abordables, des hostels aux appartements, pour rendre votre séjour confortable et sans souci financier.</p>
-        </div>
-    </div>
-</section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 1">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 2">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 3">
+            </div>
+        </section>
 
-<section id="gallery">
-    <div class="container">
-        <h3 class="w3l-title">NOTRE GALERIE</h3>
-        <div class="gallery">
-            <!-- Vos images de galerie ici -->
-        </div>
-    </div>
-</section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/100" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/100" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO</p>
+                </div>
+            </div>
+        </section>
 
-<section id="team">
-    <div class="container">
-        <h3 class="w3l-title">Team</h3>
-        <div class="team-members">
-            <!-- Vos membres d'équipe ici -->
-        </div>
-    </div>
-</section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 
-<section id="contact">
-    <div class="container">
-        <h3 class="w3l-title">Contact</h3>
-        <div class="contact-form">
-            <!-- Votre formulaire de contact ici -->
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2024 CONFINERIE FREQUENTER AU GHANA. Tous droits réservés.</p>
-    </div>
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
